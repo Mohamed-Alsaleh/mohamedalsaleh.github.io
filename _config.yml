@@ -1,6 +1,15 @@
-source:      .
+title: "Mohamed Alsaleh"
+description: "Transportation Engineer | Researcher | LSU Graduate Student"
+url: "https://mohamed-alsaleh.github.io"
+
+author:
+  name: "Mohamed Alsaleh"
+  email: "malsal7@lsu.edu"
+  linkedin: "https://www.linkedin.com/in/mohamed-alsaleh"
+
+source: .
 destination: ./_site
-includes:    ./_includes
+includes: ./_includes
 
 collections:
   projects:
