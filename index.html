@@ -1,91 +1,35 @@
----
-layout: default
----
-
 <!-- ========== About ========== -->
 <div class="docs-section" id="about">
   <h5>About</h5>
-  Hello! I am a Master’s student in <b>Transportation and Highway Engineering</b> at <b><a href="https://www.lsu.edu/">Louisiana State University (LSU)</a></b>, where I serve as a Graduate Research Assistant on an LTRC-funded project investigating the noise and vibration impact of rumble strips.
+  Hello! I am a Master’s student in <b>Transportation and Highway Engineering</b> at <b><a href="https://www.lsu.edu/">Louisiana State University (LSU)</a></b>, where I serve as a Graduate Research Assistant on an LTRC-funded project focused on evaluating the noise and vibration impact of <b>longitudinal rumble strips</b>.
 
   <br><br>
-  My work involves field testing, experimental design, site selection, and acoustic/vibration analysis using AASHTO and SAE standards. I’ve presented multiple posters at the <b>TRB 104th Annual Meeting</b> and won <b>2nd place</b> at LSU’s CEE Graduate Student Research Conference.
+  My work involves experimental design, site selection, field testing, and acoustic/vibration analysis using AASHTO and SAE standards. I’ve presented at the <b>TRB 104th Annual Meeting</b> and won <b>2nd place</b> in the Graduate Student Research Conference (GSRC) at LSU.
 
   <br><br>
-  I hold a B.Sc. in Civil Engineering from <b><a href="https://www.just.edu.jo/">Jordan University of Science and Technology (JUST)</a></b>, graduating <b>2nd out of 126 students</b>, where I built a machine learning model to predict traffic crash severity.
+  I hold a B.Sc. in Civil Engineering from <b><a href="https://www.just.edu.jo/">Jordan University of Science and Technology (JUST)</a></b>, where I ranked <b>2nd out of 126 students</b>. My graduation project involved using <b>machine learning to predict crash severity</b> and performing <b>hotspot analysis of traffic accidents</b>.
 
   <br><br>
-  I’m passionate about applying engineering and data science to improve roadway safety. Outside of academics, I lead the LSU ITE Student Chapter and engage in entrepreneurship, mentorship, and public speaking.
-</div>
+  I also completed a competitive, paid summer internship in <b>Austria</b>, working on laser scanning, GPS surveying, and 3D/2D mapping.
 
-<!-- ========== News ========== -->
-<div class="docs-section">
-  <h5>News</h5>
-
-  <div class="row no-gutters">
-    <div class="col-12 text-md-left">
-      <b style="color:#fa8072;">May 2025</b> – Presented four posters at TRB 2025 in Washington, D.C.
-    </div>
-    <div class="col-12 text-md-left">
-      <b style="color:#fa8072;">April 2025</b> – Won 2nd place at LSU’s CEE Graduate Student Research Conference.
-    </div>
-    <div class="col-12 text-md-left">
-      <b style="color:#fa8072;">March 2025</b> – Selected as <b>President</b> of the LSU ITE Student Chapter.
-    </div>
-    <div class="col-12 text-md-left">
-      <b style="color:#fa8072;">October 2024</b> – Received the GRITS Scholarship Award.
-    </div>
-    <div class="col-12 text-md-left">
-      <b style="color:#fa8072;">Summer 2022</b> – Completed civil engineering internship at DI WOLFGANG HÖPPL in Austria.
-    </div>
-  </div>
+  <br><br>
+  Outside academics, I serve as the <b>President of the ITE LSU Student Chapter</b>.
 </div>
 
 <!-- ========== Education ========== -->
 <div class="docs-section" id="education">
   <h5>Education</h5>
   <div class="paper">
-    <p class="title"><b>Louisiana State University (LSU)<b style="float:right;">May 2024 – May 2026</b></b></p>
+    <p class="title"><b>Louisiana State University (LSU)<b style="float:right;">May 2024 – Present</b></b></p>
     <p>Master’s in Transportation and Highway Engineering (Minor: Applied Statistics)</p>
   </div>
   <div class="paper">
-    <p class="title"><b>Jordan University of Science and Technology<b style="float:right;">2018 – 2023</b></b></p>
-    <p>B.Sc. in Civil Engineering (Ranked 2nd in class)</p>
+    <p class="title"><b>Jordan University of Science and Technology (JUST)<b style="float:right;">Sep. 2018 – Aug. 2023</b></b></p>
+    <p>B.Sc. in Civil Engineering</p>
+    <ul>
+      <li>GPA: 3.93 / 4.00</li>
+      <li>Ranked 2nd out of 126 students</li>
+      <li>Honor Roll for 8 consecutive semesters</li>
+    </ul>
   </div>
 </div>
-
-<!-- ========== Publications ========== -->
-<div class="docs-section" id="publications">
-  <h5>Publications</h5>
-  <div class="paper">
-    <p><b>Spatial–temporal analysis and severity prediction of traffic accidents</b></p>
-    <p>Al-Omari, A. A., Alsaleh, M., & Shatnawi, N. (2025). <i>Engineered Science.</i></p>
-    <a class="button" href="https://doi.org/10.30919/es1472" target="_blank">Paper</a>
-  </div>
-</div>
-
-<!-- ========== Resume ========== -->
-<div class="docs-section" id="resume">
-  <h5>Vitæ</h5>
-  <p>Full CV available in <a href="{{ '/assets/cv/CV.pdf' | prepend: site.baseurl }}" target="_blank">PDF</a> format.</p>
-
-  <!-- Timeline -->
-  <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-      {% else %}
-      <div class="direction-r">
-      {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-        </div>
-        <div class="desc"><b>{{ exp.title }}</b><br />{{ exp.subtitle }}</div>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-
-
