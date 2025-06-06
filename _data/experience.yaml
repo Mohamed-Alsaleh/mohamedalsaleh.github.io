@@ -24,7 +24,7 @@ experiences:
   subtitle: "Received a competitive travel grant to attend and present at TRB 104th Annual Meeting in Washington, D.C."
   category: "award"
 
-- place: "Institute of Transportation Engineers (ITE) – LSU Student Chapter"
+- place: "ITE – LSU Student Chapter"
   time: "Sep. 2024 – May 2025"
   title: "Treasurer"
   subtitle: "Managed budgeting and financial planning for student transportation outreach."
@@ -33,7 +33,7 @@ experiences:
 - place: "Louisiana State University (LSU)"
   time: "May 2024 – Present"
   title: "Graduate Research Assistant"
-  subtitle: "Working on an LTRC-funded research project evaluating rumble strip noise and vibration. Leading field testing and analysis."
+  subtitle: "Working on an LTRC-funded research project evaluating longitudinal rumble strip noise and vibration. Leading field testing and analysis."
   category: "work"
 
 - place: "Alqusour Academy"
@@ -43,15 +43,18 @@ experiences:
   category: "work"
 
 - place: "Jordan University of Science and Technology (JUST)"
-  time: "2018 – 2023"
+  time: "Sep. 2018 – Sep. 2023"
   title: "B.Sc. in Civil Engineering"
-  subtitle: "Graduated with a GPA of 3.93/4. Ranked 2nd out of 126 students. Recognized on the Honor Roll for 8 consecutive semesters."
+  subtitle: |
+    - Graduated with a GPA of 3.93/4.00  
+    - Ranked 2nd out of 126 students  
+    - Recognized on the Honor Roll for 8 consecutive semesters
   category: "school"
 
 - place: "DI WOLFGANG HÖPPL, Austria"
   time: "Jul. 2022 – Sep. 2022"
   title: "Civil Engineering Intern (via IAESTE)"
-  subtitle: "Completed a prestigious internship in Austria working on Trimble scanning, GPS surveying, and 3D mapping."
+  subtitle: "Secured and successfully completed a prestigious internship in Austria, contributing to laser scanning, GPS surveying, 3D mapping, and 2D plan development projects."
   category: "work"
 
 - place: "Jordan University of Science and Technology (JUST)"
