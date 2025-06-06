@@ -1,11 +1,12 @@
-name: "Seungone Kim"
-title: "Ph.D. Student at CMU LTI"
-email: "seungone@cmu.edu"
+name: "Mohamed Alsaleh"
+title: "Transportation Engineering Researcher | Graduate Student at LSU"
+email: "malsal7@lsu.edu"
 profile_pic: "/assets/profile-pics/profile.jpg"
-twitter: "https://twitter.com/seungonekim"
+linkedin: "https://www.linkedin.com/in/mohamed-alsaleh"
+github: "https://github.com/Mohamed-Alsaleh"
 cv: "assets/cv/CV.pdf"
-semantic_scholar: "https://www.semanticscholar.org/author/Seungone-Kim/2184037220"
-google_scholar: "https://scholar.google.com/citations?user=ZNg3w8wAAAAJ&hl=en&oi=ao"
-linkedin: "https://www.linkedin.com/in/seungone-kim-09b551264/"
-github: "https://github.com/SeungoneKim"
-google_analystics_tracking_id: 'G-WQFJ1LRG22'
+google_scholar: "https://scholar.google.com/citations?user=1lGzUwwAAAAJ&hl=en&oi=sra"
+semantic_scholar: ""  # Optional — leave empty if you don't use it
+twitter: ""  # Optional — fill in if you want to show your Twitter
+google_analystics_tracking_id: ''  # Optional — fill in if you want to use Google Analytics
+
