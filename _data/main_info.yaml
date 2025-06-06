@@ -6,7 +6,6 @@ linkedin: "https://www.linkedin.com/in/mohamed-alsaleh"
 github: "https://github.com/Mohamed-Alsaleh"
 cv: "assets/cv/CV.pdf"
 google_scholar: "https://scholar.google.com/citations?user=1lGzUwwAAAAJ&hl=en&oi=sra"
-semantic_scholar: ""  # Optional — leave empty if you don't use it
-twitter: ""  # Optional — fill in if you want to show your Twitter
-google_analystics_tracking_id: ''  # Optional — fill in if you want to use Google Analytics
-
+semantic_scholar: ""  # Optional — leave blank if unused
+twitter: ""  # Optional — add URL if used
+google_analytics_tracking_id: ""  # Optional — add tracking ID if used
