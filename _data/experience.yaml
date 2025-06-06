@@ -1,9 +1,51 @@
 experiences:
 
+- place: "Institute of Transportation Engineers (ITE) – LSU Student Chapter"
+  time: "May 2025 – Present"
+  title: "President"
+  subtitle: "Leading chapter events, expanding outreach, and guiding student engagement in transportation engineering."
+  category: "work"
+
+- place: "CEE Graduate Student Research Conference – LSU"
+  time: "Mar. 2025"
+  title: "2nd Place – Graduate Research Presentation"
+  subtitle: "Awarded for outstanding presentation of field-based transportation research."
+  category: "award"
+
+- place: "Gulf Regional ITS (GRITS)"
+  time: "Feb. 2025"
+  title: "Scholarship Awardee"
+  subtitle: "Received the GRITS Scholarship Award for the 2024–2025 academic year."
+  category: "award"
+
+- place: "LTRC & Bentley Systems"
+  time: "Dec. 2024"
+  title: "Bentley Travel Grant Awardee"
+  subtitle: "Received a competitive travel grant to attend and present at TRB 104th Annual Meeting in Washington, D.C."
+  category: "award"
+
+- place: "Institute of Transportation Engineers (ITE) – LSU Student Chapter"
+  time: "Sep. 2024 – May 2025"
+  title: "Treasurer"
+  subtitle: "Managed budgeting and financial planning for student transportation outreach."
+  category: "work"
+
+- place: "Louisiana State University (LSU)"
+  time: "May 2024 – Present"
+  title: "Graduate Research Assistant"
+  subtitle: "Working on an LTRC-funded research project evaluating rumble strip noise and vibration. Leading field testing and analysis."
+  category: "work"
+
+- place: "Alqusour Academy"
+  time: "Nov. 2023 – Apr. 2024"
+  title: "Lecturer (Part-time)"
+  subtitle: "Taught engineering-related topics onsite in Jordan for six months."
+  category: "work"
+
 - place: "Jordan University of Science and Technology (JUST)"
-  time: "Fall 2021/2022"
-  title: "1st Rank – Civil Engineering Department"
-  subtitle: "Achieved the highest academic performance among peers during this semester."
+  time: "2018 – 2023"
+  title: "B.Sc. in Civil Engineering"
+  subtitle: "Graduated with a GPA of 3.93/4. Ranked 2nd out of 126 students. Recognized on the Honor Roll for 8 consecutive semesters."
   category: "school"
 
 - place: "DI WOLFGANG HÖPPL, Austria"
@@ -13,49 +55,6 @@ experiences:
   category: "work"
 
 - place: "Jordan University of Science and Technology (JUST)"
-  time: "2018 – 2023"
-  title: "B.Sc. in Civil Engineering"
-  subtitle: "Graduated with a GPA of 3.93/4. Ranked 2nd out of 126 students. Recognized on the Honor Roll for 8 consecutive semesters."
-  category: "school"
-
-- place: "Alqusour Academy"
-  time: "Nov. 2023 – Apr. 2024"
-  title: "Lecturer (Part-time)"
-  subtitle: "Taught engineering-related topics onsite in Jordan for six months."
-  category: "work"
-
-- place: "Louisiana State University (LSU)"
-  time: "May 2024 – Present"
-  title: "Graduate Research Assistant"
-  subtitle: "Working on an LTRC-funded research project evaluating rumble strip noise and vibration. Leading field testing and analysis."
-  category: "work"
-
-- place: "Institute of Transportation Engineers (ITE) – LSU Student Chapter"
-  time: "Sep. 2024 – May 2025"
-  title: "Treasurer"
-  subtitle: "Managed budgeting and financial planning for student transportation outreach."
-  category: "work"
-
-- place: "LTRC & Bentley Systems"
-  time: "Dec. 2024"
-  title: "Bentley Travel Grant Awardee"
-  subtitle: "Received a competitive travel grant to attend and present at TRB 104th Annual Meeting in Washington, D.C."
-  category: "award"
-
-- place: "Gulf Regional ITS (GRITS)"
-  time: "Feb. 2025"
-  title: "Scholarship Awardee"
-  subtitle: "Received the GRITS Scholarship Award for the 2024–2025 academic year."
-  category: "award"
-
-- place: "CEE Graduate Student Research Conference – LSU"
-  time: "Mar. 2025"
-  title: "2nd Place – Graduate Research Presentation"
-  subtitle: "Awarded for outstanding presentation of field-based transportation research."
-  category: "award"
-
-- place: "Institute of Transportation Engineers (ITE) – LSU Student Chapter"
-  time: "May 2025 – Present"
-  title: "President"
-  subtitle: "Leading chapter events, expanding outreach, and guiding student engagement in transportation engineering."
-  category: "work"
+  time: "Fall 2021/2022"
+  title: "1st Rank – Civil Engineering Department"
+  subtitle: "Achieved the highest academic performance among peers during this s
