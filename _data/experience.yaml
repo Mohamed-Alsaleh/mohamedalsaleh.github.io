@@ -46,4 +46,16 @@ experiences:
   time: "2018 – 2023"
   title: "B.Sc. in Civil Engineering"
   subtitle: "Graduated with a GPA of 3.93/4. Ranked 2nd out of 126 students. Recognized on the Honor Roll for 8 consecutive semesters."
-  category: "school
+  category: "school"
+
+- place: "DI WOLFGANG HÖPPL, Austria"
+  time: "Jul. 2022 – Sep. 2022"
+  title: "Civil Engineering Intern (via IAESTE)"
+  subtitle: "Completed a prestigious internship in Austria working on Trimble scanning, GPS surveying, and 3D mapping."
+  category: "work"
+
+- place: "Jordan University of Science and Technology (JUST)"
+  time: "Fall 2021/2022"
+  title: "1st Rank – Civil Engineering Department"
+  subtitle: "Achieved the highest academic performance among peers during this semester."
+  category: "school"
