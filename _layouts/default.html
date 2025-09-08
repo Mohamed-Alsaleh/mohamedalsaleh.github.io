@@ -79,7 +79,7 @@
           {{ site.data.main_info.name }}
         </div>
         <div class="four columns">
-          Last updated on April 24, 2025
+          Last updated on {{ site.time | date: "%B %d, %Y" }}
         </div>
         <div class="four columns">
           <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
@@ -100,5 +100,5 @@
   <!-- Google Analytics -->
   {% include google_analytics.html %}
 
-</body>
+</body> 
 </html>
