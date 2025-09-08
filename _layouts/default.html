@@ -41,6 +41,14 @@
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/png" href=/assets/lti.ico>
 
+  <!-- Custom Icon Size -->
+  <style>
+    .social-icon {
+      font-size: 28px;   /* adjust this value as needed */
+      margin-right: 8px; /* spacing between icons */
+    }
+  </style>
+
 </head>
 <body>
 
@@ -58,17 +66,16 @@
           <p>{{ site.data.main_info.email }}</p>
           <p>
             <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
-              <i class="fa fa-download" aria-hidden="true"></i>
+              <i class="fa fa-download social-icon" aria-hidden="true"></i>
             </span>
             <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-              <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
+              <i class="ai ai-google-scholar-square social-icon" aria-hidden="true"></i>
             </span>
-            <!-- ResearchGate -->
             <span onclick="window.open('{{ site.data.main_info.researchgate }}')" style="cursor: pointer">
-              <i class="ai ai-researchgate-square" aria-hidden="true"></i>
+              <i class="ai ai-researchgate-square social-icon" aria-hidden="true"></i>
             </span>
             <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              <i class="fa fa-linkedin-square social-icon" aria-hidden="true"></i>
             </span>
           </p>
         </div>
@@ -87,17 +94,16 @@
         </div>
         <div class="four columns">
           <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
-            <i class="fa fa-download" aria-hidden="true"></i>
+            <i class="fa fa-download social-icon" aria-hidden="true"></i>
           </span>
           <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
+            <i class="ai ai-google-scholar-square social-icon" aria-hidden="true"></i>
           </span>
-          <!-- ResearchGate -->
           <span onclick="window.open('{{ site.data.main_info.researchgate }}')" style="cursor: pointer">
-            <i class="ai ai-researchgate-square" aria-hidden="true"></i>
+            <i class="ai ai-researchgate-square social-icon" aria-hidden="true"></i>
           </span>
           <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square social-icon" aria-hidden="true"></i>
           </span>
         </div>
       </div>
