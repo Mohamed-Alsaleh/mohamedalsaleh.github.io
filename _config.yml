@@ -1,6 +1,7 @@
 title: "Mohamed Alsaleh"
-description: "Transportation Engineer | Researcher | LSU Graduate Student"
+description: "Transportation Engineering Researcher | Graduate Student at LSU"
 url: "https://mohamed-alsaleh.github.io"
+baseurl: ""   # keep empty for user/organization site (root domain)
 
 author:
   name: "Mohamed Alsaleh"
