@@ -1,0 +1,10 @@
+- name: About
+  url: "#about"
+- name: News
+  url: "#news"
+- name: Education
+  url: "#education"
+- name: Publications
+  url: "#publications"
+- name: Vitæ
+  url: "#vitae"
