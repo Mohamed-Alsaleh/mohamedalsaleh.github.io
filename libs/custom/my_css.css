@@ -7,7 +7,7 @@ h4 {
   margin-bottom: 60px; 
   text-align: left;
   position: relative;          /* anchor for absolute-positioned nav */
-  padding-top: 120px;          /* ↓ pushes name/title/email/icons down */
+  padding-top: 64px;           /* create space under the nav so the name doesn't overlap */
 }
 .main-description h1 {
   margin-bottom: 0px; }
@@ -198,7 +198,7 @@ h4 {
 /* ===== Header-anchored top-right nav ===== */
 .site-nav {
   position: absolute;    /* anchored to .header */
-  top: 0;                /* glued to the very top */
+  top: 0;                /* stick to the very top of the header */
   right: 12px;
   z-index: 10;
 }
@@ -225,9 +225,9 @@ h4 {
   text-decoration: underline;
 }
 
-/* Mobile: reduce padding so header isn't too tall */
+/* Mobile: smaller padding so it doesn't push too much */
 @media (max-width: 600px) {
-  .header { padding-top: 96px; }  /* adjust if you want more/less space on phones */
+  .header { padding-top: 48px; }  /* adjust as needed on small screens */
   .site-nav {
     position: static;
     margin-bottom: 0.5rem;
@@ -239,7 +239,7 @@ h4 {
   }
 }
 
-/* Desktop: push content even lower if desired */
+/* Desktop: give a bit more breathing room if you want */
 @media (min-width: 750px) {
-  .header { padding-top: 160px; } /* ↑ increase if you want more space below the nav */
+  .header { padding-top: 72px; }  /* increase/decrease to move name lower */
 }
