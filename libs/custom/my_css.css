@@ -11,9 +11,8 @@ h4 { letter-spacing: .1rem; }
 }
 .main-description h1 { margin-bottom: 0; }
 .main-description p { margin-bottom: 0; }
-.main-description .fa { font-size: 22px; margin-top: 5px; }
 
-/* --- Make all social icons the same size --- */
+/* --- Make all social icons the same size everywhere --- */
 .social-icon {
   font-size: 28px;       /* uniform glyph size */
   width: 28px;           /* uniform box */
@@ -23,6 +22,11 @@ h4 { letter-spacing: .1rem; }
   text-align: center;    /* center glyphs */
   vertical-align: middle;
   margin-right: 8px;     /* spacing between icons */
+}
+/* Ensure header icons follow the same size */
+.main-description .social-icon {
+  font-size: 28px;
+  margin-top: 5px;
 }
 
 .paper { margin-bottom: 20px }
