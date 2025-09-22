@@ -113,6 +113,11 @@
               <i class="ai ai-researchgate-square social-icon" aria-hidden="true"></i>
             </span>
             {% endif %}
+            {% if site.data.main_info.semantic_scholar %}
+            <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer" title="Semantic Scholar">
+              <i class="ai ai-semantic-scholar-square social-icon" aria-hidden="true"></i>
+            </span>
+            {% endif %}
             {% if site.data.main_info.linkedin %}
             <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer" title="LinkedIn">
               <i class="fa fa-linkedin-square social-icon" aria-hidden="true"></i>
@@ -145,6 +150,11 @@
           {% if site.data.main_info.researchgate %}
           <span onclick="window.open('{{ site.data.main_info.researchgate }}')" style="cursor: pointer" title="ResearchGate">
             <i class="ai ai-researchgate-square social-icon" aria-hidden="true"></i>
+          </span>
+          {% endif %}
+          {% if site.data.main_info.semantic_scholar %}
+          <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer" title="Semantic Scholar">
+            <i class="ai ai-semantic-scholar-square social-icon" aria-hidden="true"></i>
           </span>
           {% endif %}
           {% if site.data.main_info.linkedin %}
