@@ -196,9 +196,9 @@ h4 {
 
 /* -------- Top-right nav (revised) -------- */
 .site-nav {
-  position: absolute;   /* anchor inside .header */
-  top: -6px;            /* adjust: more negative = higher; positive = lower */
-  right: 10px;
+  position: absolute;           /* anchor inside .header */
+  top: -8px;                    /* adjust: more negative = higher; positive = lower */
+  right: 12px;
   z-index: 10;
 }
 
@@ -216,15 +216,15 @@ h4 {
 
 /* Match site font + set colors */
 .site-nav .nav-items a {
-  font-family: inherit;     /* use the same Raleway as the site */
+  font-family: inherit;         /* use the same Raleway as the site */
   font-weight: 600;
   text-decoration: none;
-  color: #4a4a4a;           /* link color */
+  color: #4a4a4a;               /* link color */
   opacity: 0.95;
 }
 
 .site-nav .nav-items a:hover {
-  color: #007acc;           /* hover color */
+  color: #007acc;               /* hover color */
   text-decoration: underline;
 }
 
