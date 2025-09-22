@@ -1,5 +1,5 @@
-/* Optional: one place to change your accent color */
-:root { --accent: #fa8072; }
+/* Global accent (neutral/dark) */
+:root { --accent: #2b2b2b; }
 
 h4 { letter-spacing: .1rem; }
 .container { max-width: 800px; }
@@ -108,16 +108,16 @@ h4 { letter-spacing: .1rem; }
   display: flex; gap: 1rem;
 }
 
-/* Match site font & use News date color for nav */
+/* Nav colors — neutral accent */
 .site-nav .nav-items a {
   font-family: inherit;
   font-weight: 600;
   text-decoration: none;
-  color: var(--accent);         /* #fa8072 */
+  color: var(--accent); /* #2b2b2b */
   opacity: 0.95;
 }
 .site-nav .nav-items a:hover {
-  color: #e36b5f;               /* slightly deeper on hover */
+  color: #555;         /* hover */
   text-decoration: underline;
 }
 
