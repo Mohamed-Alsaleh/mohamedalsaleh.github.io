@@ -1,3 +1,6 @@
+/* Optional: one place to change your accent color */
+:root { --accent: #fa8072; }
+
 h4 { letter-spacing: .1rem; }
 .container { max-width: 800px; }
 .header {
@@ -95,8 +98,8 @@ h4 { letter-spacing: .1rem; }
 /* ===== Top-right nav: FIXED (won’t shift header content) ===== */
 .site-nav {
   position: fixed;     /* pinned to viewport, independent of header */
-  top: 16px;           /* lower a bit more */
-  right: 40px;         /* further from right edge => shifts left */
+  top: 16px;           /* vertical offset */
+  right: 40px;         /* horizontal offset: bigger = more left */
   z-index: 1000;       /* above header/photo */
 }
 
@@ -105,16 +108,16 @@ h4 { letter-spacing: .1rem; }
   display: flex; gap: 1rem;
 }
 
-/* Match site font & set colors */
+/* Match site font & use News date color for nav */
 .site-nav .nav-items a {
   font-family: inherit;
   font-weight: 600;
   text-decoration: none;
-  color: #4a4a4a;
+  color: var(--accent);         /* #fa8072 */
   opacity: 0.95;
 }
 .site-nav .nav-items a:hover {
-  color: #007acc;
+  color: #e36b5f;               /* slightly deeper on hover */
   text-decoration: underline;
 }
 
