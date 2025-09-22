@@ -6,7 +6,8 @@ h4 {
   margin-top: 60px;
   margin-bottom: 60px; 
   text-align: left;
-  position: relative;  /* anchor for absolute-positioned nav */
+  position: relative;          /* anchor for absolute-positioned nav */
+  padding-top: 64px;           /* create space under the nav so the name doesn't overlap */
 }
 .main-description h1 {
   margin-bottom: 0px; }
@@ -194,10 +195,10 @@ h4 {
     border-bottom-color: #33C3F0; }
 }
 
-/* -------- Top-right nav (revised) -------- */
+/* ===== Header-anchored top-right nav ===== */
 .site-nav {
-  position: absolute;           /* anchor inside .header */
-  top: -96px;                   /* lifted a LOT higher */
+  position: absolute;    /* anchored to .header */
+  top: 0;                /* stick to the very top of the header */
   right: 12px;
   z-index: 10;
 }
@@ -210,26 +211,23 @@ h4 {
   gap: 1rem;
 }
 
-.site-nav .nav-items li { 
-  margin: 0; 
-}
-
 /* Match site font + set colors */
 .site-nav .nav-items a {
-  font-family: inherit;         /* use the same Raleway as the site */
+  font-family: inherit;  /* use the same Raleway as the site */
   font-weight: 600;
   text-decoration: none;
-  color: #4a4a4a;               /* link color */
+  color: #4a4a4a;        /* link color */
   opacity: 0.95;
 }
 
 .site-nav .nav-items a:hover {
-  color: #007acc;               /* hover color */
+  color: #007acc;        /* hover color */
   text-decoration: underline;
 }
 
-/* Mobile: let it flow below the header content */
+/* Mobile: smaller padding so it doesn't push too much */
 @media (max-width: 600px) {
+  .header { padding-top: 48px; }  /* adjust as needed on small screens */
   .site-nav {
     position: static;
     margin-bottom: 0.5rem;
@@ -241,7 +239,7 @@ h4 {
   }
 }
 
-/* Extra lift on wider screens */
+/* Desktop: give a bit more breathing room if you want */
 @media (min-width: 750px) {
-  .site-nav { top: -128px; }    /* bump up even more for desktop */
+  .header { padding-top: 72px; }  /* increase/decrease to move name lower */
 }
