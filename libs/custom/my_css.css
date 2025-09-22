@@ -13,6 +13,18 @@ h4 { letter-spacing: .1rem; }
 .main-description p { margin-bottom: 0; }
 .main-description .fa { font-size: 22px; margin-top: 5px; }
 
+/* --- Make all social icons the same size --- */
+.social-icon {
+  font-size: 28px;       /* uniform glyph size */
+  width: 28px;           /* uniform box */
+  height: 28px;
+  line-height: 1;        /* avoid extra vertical padding */
+  display: inline-block; /* normalize inline layout */
+  text-align: center;    /* center glyphs */
+  vertical-align: middle;
+  margin-right: 8px;     /* spacing between icons */
+}
+
 .paper { margin-bottom: 20px }
 .paper .title { /*text-transform: uppercase; */ }
 .paper p { margin-bottom: 2px }
