@@ -31,7 +31,8 @@
   <!-- CSS -->
   <link rel="stylesheet" href="{{ '/libs/external/skeleton/normalize.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/libs/external/skeleton/skeleton.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/libs/custom/my_css.css' | relative_url }}">
+  <!-- Cache-busted custom CSS so your updates show immediately -->
+  <link rel="stylesheet" href="{{ '/libs/custom/my_css.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
 
   <!-- JQuery -->
   <script src="{{ '/libs/external/jquery-3.1.1.min.js' | relative_url }}"></script>
@@ -55,44 +56,12 @@
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/lti.ico' | relative_url }}">
 
-  <!-- Custom Icon Size + Nav styles (you can move the nav CSS to my_css.css later) -->
+  <!-- Keep only the icon size inline style; nav styles live in my_css.css -->
   <style>
     .social-icon {
-      font-size: 28px;   /* adjust this value as needed */
-      margin-right: 8px; /* spacing between icons */
+      font-size: 28px;
+      margin-right: 8px;
       vertical-align: middle;
-    }
-
-    /* -------- Top-right nav -------- */
-    .site-nav { position: relative; }
-    .site-nav .nav-items {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      gap: 1rem;
-      position: absolute;
-      top: 0.5rem;
-      right: 0.5rem;
-    }
-    .site-nav .nav-items li { margin: 0; }
-    .site-nav .nav-items a {
-      text-decoration: none;
-      font-weight: 600;
-      opacity: 0.9;
-    }
-    .site-nav .nav-items a:hover {
-      opacity: 1;
-      text-decoration: underline;
-    }
-    @media (max-width: 600px) {
-      .site-nav .nav-items {
-        position: static;
-        justify-content: flex-end;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        margin-bottom: 0.5rem;
-      }
     }
   </style>
 
@@ -105,10 +74,15 @@
     <section class="header">
 
       <!-- Top-right nav -->
-      <nav class="site-nav">
+      <nav class="site-nav" aria-label="Primary">
         <ul class="nav-items">
           {% for item in site.data.nav %}
-            <li><a href="{{ item.url | relative_url }}">{{ item.name }}</a></li>
+            {% assign first = item.url | slice: 0, 1 %}
+            <li>
+              <a href="{% if first == '#' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">
+                {{ item.name }}
+              </a>
+            </li>
           {% endfor %}
         </ul>
       </nav>
@@ -187,13 +161,17 @@
   <!-- Optional: Smooth scrolling for #anchors -->
   <script>
     document.addEventListener('click', function (e) {
-      const a = e.target.closest('a[href^="#"]');
+      const a = e.target.closest('a[href*="#"]');
       if (!a) return;
-      const id = a.getAttribute('href').slice(1);
+      const href = a.getAttribute('href');
+      const hashIndex = href.indexOf('#');
+      if (hashIndex === -1) return;
+      const id = href.slice(hashIndex + 1);
       const el = document.getElementById(id);
       if (!el) return;
       e.preventDefault();
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', '#' + id);
     });
   </script>
 
